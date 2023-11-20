@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion à J&S Sneakers</title>
+    <link rel="stylesheet" href="connexion.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Connexion</h2>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="email">Adresse e-mail :</label>
+                <input type="email" id="email" name="email" placeholder="Votre adresse e-mail" required>
+                <p id="email-error" class="error"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password" placeholder="Votre mot de passe" required>
+                <p id="password-error" class="error"></p>
+            </div>
+
+            <button type="submit">Se connecter</button>
+        </form>
+        <p>Pas de compte ? <a href="formulaire-de-connexion.html">Inscrivez-vous</a></p>
+        <button><a href="new.html">Retour vers le site</a></button>
+    </div>
+</body>
+</html>

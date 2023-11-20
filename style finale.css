@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-container {
+    width: 100%;
+    height: 400px; 
+    background-image: url('couleur\ de\ fond.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-color: #f7f7f7; 
+}
+
+
+.text-content {
+    padding: 20px;
+    color: #333; 
+    font-size: 24px; 
+}
+ 
+ header {
+        background-color: #121213;
+        color: #0c0c0c;
+        padding: 5px;
+        
+    }
+    
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111010;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: middle;
+    padding:  20px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #832222;
+    font-size: 24px;
+}
+
+.search {
+    flex: 2;
+    padding: 10px;
+    margin-left: left;
+    
+}
+
+.search input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #131212;
+    border-radius: 4px;
+    margin-left: left;
+
+}
+
+.search button {
+    background-color: rgb(230, 223, 219);
+    color: #070707;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 5px;
+    cursor: pointer;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+.prev-button, .next-button {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+    top: -50px;
+}
+
+.prev-button {
+    position: relative;
+    right: 50px;
+}
+
+.next-button {
+    position: relative;
+    left: 50px;
+}
+
+.user a {
+    text-decoration: none;
+    color: #c0c2b6;
+    margin-left: 35px;
+}
+
+.featured-products {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.best-sellers {
+    padding: 40px ;
+    background-color: #fff;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.autres-produits {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    background-color: #e1e4e9;
+}
+
+.product-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+
+
+.product1 {
+    border: 1px solid #e4dcdc;
+    text-align: left;
+    margin: 10px 0;
+    padding: 10px;
+}
+.product2 {
+    text-align: left;
+    border: 1px solid #dbd4d4;
+    margin: 10px 0;
+    padding: 10px;
+}
+.product3 {
+    text-align: left;
+    border: 1px solid #dbd2d2;
+    margin: 10px 0;
+    padding: 10px;
+}
+.product4 {
+    text-align: left;
+    border: 1px solid #e4dcdc;
+    margin: 10px 0;
+    padding: 10px;
+}
+.product5 {
+    text-align: left;
+    border: 1px solid #e6dddd;
+    margin: 10px 0;
+    padding: 10px;
+}
+.product6 {
+    text-align: left;
+    border: 1px solid #f8efef;
+    margin: 10px 0;
+    padding: 10px;
+}
+.product7 {
+    text-align: left;
+    border: 1px solid #d6cfcf;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+
+.price button{
+    color: rgb(139, 60, 60);
+}
+
+.hidden {
+    display: none;
+}
+
+#sizesList {
+    list-style: none;
+    padding: 0;
+}
+
+#sizesList li {
+    padding: 3px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    background-color: #f0f0f0;
+}
+
+
+.DESCRPTION{
+    text-align:auto;
+    color:  beige;
+    
+
+}
+button {
+    background-color: none;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: not-allowed;
+}
+
+.list1{
+   text-align: inherit;
+    color: white;
+  
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: #232f3e;
+    color: white;
+    padding: 5px 0;
+    transition: background-color 1.5s; 
+}
+
+footer:hover {
+    background-color: #e2e6eb; 
+  }
+
+
+
